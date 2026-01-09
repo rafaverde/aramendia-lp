@@ -64,7 +64,7 @@
       <!-- ================= HERO ================= -->
       <section
         id="hero"
-        class="px-6 py-16 max-w-7xl mx-auto grid gap-10 md:grid-cols-2 items-center"
+        class="px-6 py-16 max-w-7xl mx-auto grid gap-10 md:grid-cols-2 items-center bg-[url('/assets/images/bg-padrao.webp')] bg-cover bg-center"
       >
         <!-- Texto -->
         <div>
@@ -104,60 +104,140 @@
       </section>
 
       <!-- ================= ABOUT ================= -->
-      <section id="about" class="px-6 py-20 max-w-5xl mx-auto">
-        <h2 class="text-2xl md:text-4xl font-bold mb-6">
-          ¿Quién es Santiago Aramendía y por qué puede ayudarte a atraer
-          inversión?
-        </h2>
+      <section
+        id="about"
+        class="px-6 py-20 max-w-5xl mx-auto flex flex-col md:flex-row gap-11"
+      >
+        <div class="size-60 rounded-full mb-6 bg-secondary overflow-hidden">
+          <img
+            src="/assets/images/santiago-aramendia.webp"
+            alt="Santiago Aramendía"
+            class="object-cover w-full h-full"
+          />
+        </div>
+        <div class="flex-1">
+          <h2 class="text-2xl md:text-4xl font-bold mb-6">
+            ¿Quién es Santiago Aramendía y por qué puede ayudarte a atraer
+            inversión?
+          </h2>
 
-        <p class="text-lg text-white/90 mb-6">
-          Santiago Aramendía es especialista en estrategia empresarial y
-          captación de inversiones, con más de 15 años acompañando startups y
-          emprendedores en Latinoamérica y Europa.
-        </p>
+          <p class="text-lg text-white/90 mb-6">
+            Santiago Aramendía es especialista en estrategia empresarial y
+            captación de inversiones, con más de 15 años acompañando startups y
+            emprendedores en Latinoamérica y Europa.
+          </p>
 
-        <ul class="space-y-3 mb-8">
-          <li>✔ +15 años acompañando emprendedores y startups</li>
-          <li>✔ Experiencia internacional</li>
-          <li>✔ Especialista en estructuración de negocios y pitch</li>
-          <li>✔ Resultados concretos en preparación para inversión</li>
-        </ul>
+          <ul class="space-y-3 mb-8">
+            <li class="flex items-center gap-1">
+              <img
+                src="/assets/images/check-secondary.svg"
+                alt="Secondary Check Icon"
+                class="size-6"
+              />
+              +15 años acompañando emprendedores y startups
+            </li>
+            <li class="flex items-center gap-1">
+              <img
+                src="/assets/images/check-secondary.svg"
+                alt="Secondary Check Icon"
+                class="size-6"
+              />Experiencia internacional
+            </li>
+            <li class="flex items-center gap-1">
+              <img
+                src="/assets/images/check-secondary.svg"
+                alt="Secondary Check Icon"
+                class="size-6"
+              />Especialista en estructuración de negocios y pitch
+            </li>
+            <li class="flex items-center gap-1">
+              <img
+                src="/assets/images/check-secondary.svg"
+                alt="Secondary Check Icon"
+                class="size-6"
+              />
+              Resultados concretos en preparación para inversión
+            </li>
+          </ul>
 
-        <a
-          href="https://linkedin.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="inline-flex items-center gap-2 text-secondary font-medium underline"
-        >
-          Conectá en LinkedIn
-        </a>
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 text-secondary font-medium uppercase tracking-wider border border-secondary px-6 py-3 rounded-full hover:bg-secondary/20 transition-colors"
+          >
+            <img
+              src="/assets/images/linkedin-box-fill.svg"
+              alt=""
+              class="size-10"
+            />
+            Conectá en LinkedIn
+          </a>
+        </div>
       </section>
 
       <!-- ================= PROGRAM ================= -->
       <section id="program" class="px-6 py-20 bg-white text-primary">
-        <div class="max-w-5xl mx-auto">
-          <h2 class="text-2xl md:text-4xl font-bold mb-6">
-            Todo lo que tu startup necesita para presentarse profesionalmente
-            ante inversores
-          </h2>
+        <div
+          class="max-w-5xl mx-auto flex flex-col md:flex-row gap-10 items-center"
+        >
+          <div class="flex-1">
+            <h2 class="text-2xl md:text-4xl font-bold mb-6">
+              Todo lo que tu startup necesita para presentarse profesionalmente
+              ante inversores
+            </h2>
 
-          <p class="text-lg mb-8">
-            En 30 días trabajamos juntos para estructurar tu proyecto y preparar
-            los materiales clave que los inversores esperan ver.
-          </p>
+            <p class="text-lg mb-8">
+              En 30 días trabajamos juntos para estructurar tu proyecto y
+              preparar los materiales clave que los inversores esperan ver.
+            </p>
 
-          <ul class="space-y-4 mb-8">
-            <li>✔ One Pager profesional</li>
-            <li>✔ Pitch Deck claro y estratégico</li>
-            <li>✔ Plan de negocio</li>
-            <li>✔ Crafteo y entrenamiento de Pitch</li>
-            <li>✔ Acompañamiento personalizado</li>
-          </ul>
+            <ul class="space-y-4 mb-8">
+              <li class="flex items-center gap-1">
+                <img
+                  src="/assets/images/check-primary.svg"
+                  alt="Secondary Check Icon"
+                  class="size-6"
+                />One Pager profesional
+              </li>
+              <li class="flex items-center gap-1">
+                <img
+                  src="/assets/images/check-primary.svg"
+                  alt="Secondary Check Icon"
+                  class="size-6"
+                />Pitch Deck claro y estratégico
+              </li>
+              <li class="flex items-center gap-1">
+                <img
+                  src="/assets/images/check-primary.svg"
+                  alt="Secondary Check Icon"
+                  class="size-6"
+                />Plan de negocio
+              </li>
+              <li class="flex items-center gap-1">
+                <img
+                  src="/assets/images/check-primary.svg"
+                  alt="Secondary Check Icon"
+                  class="size-6"
+                />Crafteo y entrenamiento de Pitch
+              </li>
+              <li class="flex items-center gap-1">
+                <img
+                  src="/assets/images/check-primary.svg"
+                  alt="Secondary Check Icon"
+                  class="size-6"
+                />Acompañamiento personalizado
+              </li>
+            </ul>
 
-          <p class="font-medium">
-            Los inversores buscan startups sólidas, claras y confiables. Yo te
-            ayudo a mostrar tu proyecto con nivel profesional.
-          </p>
+            <p class="font-medium">
+              Los inversores buscan startups sólidas, claras y confiables. Yo te
+              ayudo a mostrar tu proyecto con nivel profesional.
+            </p>
+          </div>
+          <div class="w-1/2">
+            <img src="/assets/images/startup-ilustration.svg" alt="" />
+          </div>
         </div>
       </section>
 
