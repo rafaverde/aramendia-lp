@@ -98,8 +98,14 @@
 
         <!-- Vídeo -->
         <div class="w-full aspect-video bg-black/40 rounded-xl overflow-hidden">
-          <!-- Embed do vídeo da campanha -->
-          <!-- iframe aqui -->
+          <iframe
+            class="w-full h-full"
+            src="https://www.youtube.com/embed/UIypGcc8KOI?rel=0&modestbranding=1&playsinline=1"
+            title="Prepará tu startup para atraer inversión"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
       </section>
 
@@ -242,7 +248,10 @@
       </section>
 
       <!-- ================= APPLICATION ================= -->
-      <section id="application" class="px-6 py-20 max-w-4xl mx-auto">
+      <section
+        id="application"
+        class="px-6 py-20 max-w-4xl mx-auto scroll-m-[118px]"
+      >
         <h2 class="text-2xl md:text-4xl font-bold mb-4">
           Aplicá para el Setup de Búsqueda de Inversión
         </h2>
@@ -253,13 +262,35 @@
         </p>
 
         <!-- Embed formulário RoasFunnels -->
-        <div class="bg-white rounded-xl p-6 text-primary">
-          <!-- FORM EMBED AQUI -->
+        <div class="rounded-xl p-6 text-primary">
+          <iframe
+            src="https://api.leadconnectorhq.com/widget/form/H8c999WTXGhIvol8COfs"
+            class="min-h-[600px] w-full rounded-lg"
+            id="inline-H8c999WTXGhIvol8COfs"
+            data-layout="{'id':'INLINE'}"
+            data-trigger-type="alwaysShow"
+            data-trigger-value=""
+            data-activation-type="alwaysActivated"
+            data-activation-value=""
+            data-deactivation-type="neverDeactivate"
+            data-deactivation-value=""
+            data-form-name="Formulario Aplicación – Setup Inversión"
+            data-height="1299"
+            data-layout-iframe-id="inline-H8c999WTXGhIvol8COfs"
+            data-form-id="H8c999WTXGhIvol8COfs"
+            title="Formulario Aplicación – Setup Inversión"
+            frameborder="0"
+          >
+          </iframe>
+          <script src="https://link.msgsndr.com/js/form_embed.js"></script>
         </div>
       </section>
 
       <!-- ================= SOCIAL PROOF ================= -->
-      <section id="social-proof" class="px-6 py-20 bg-primary/90">
+      <section
+        id="social-proof"
+        class="px-6 py-20 bg-primary/90 bg-[url('/assets/images/bg-padrao.webp')] bg-cover bg-center"
+      >
         <div class="max-w-5xl mx-auto">
           <h2 class="text-2xl md:text-4xl font-bold mb-10">
             Lo que dicen emprendedores que ya trabajaron conmigo
@@ -323,11 +354,11 @@
     </main>
 
     <!-- ================= FOOTER ================= -->
-    <footer class="px-6 py-10 text-center text-sm opacity-80">
+    <footer class="px-6 py-10 text-center text-sm bg-slate-900/90">
       <img
-        src="/assets/logo.svg"
+        src="/assets/logo-aramendia-light.svg"
         alt="Santiago Aramendía"
-        class="h-8 mx-auto mb-4"
+        class="h-12 mx-auto mb-4"
       />
 
       <p>saramendia@gmail.com</p>
